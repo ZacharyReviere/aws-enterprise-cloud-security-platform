@@ -63,4 +63,4 @@ terraform/
 
 **Zachary Reviere**
 
-Computer Science Student | Cloud Security | AWS | Terraform
+Computer Science | Cloud Security | AWS | Terraform
