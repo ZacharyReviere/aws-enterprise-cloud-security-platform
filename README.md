@@ -28,6 +28,41 @@ This project demonstrates how to deploy and manage secure AWS infrastructure usi
 - IAM
 - CloudShell
 
+## 📸 AWS Resources
+
+These screenshots show the AWS resources deployed and configured as part of this cloud security lab.
+
+### Amazon EC2 Instance
+![EC2 Instance](./ec2.png)
+
+- Amazon Linux 2023 EC2 instance
+- CloudWatch Agent installed
+- Running in the AWS Free Tier
+
+### Amazon S3 Buckets
+![Amazon S3](./s3.png)
+
+- CloudTrail log storage
+- Terraform state storage
+- Versioning and encryption enabled
+- Public access blocked
+
+### CloudWatch Monitoring
+![CloudWatch](./CloudWatch.png)
+
+- CloudWatch metrics
+- CPU monitoring
+- CloudWatch alarms
+- Performance visibility
+
+### IAM Roles
+![IAM Roles](./IAM-Role.png)
+
+- Least privilege access
+- EC2 IAM role
+- CloudWatch Agent role
+- Service-linked roles
+
 ## Security Features
 
 - S3 Server-Side Encryption (AES-256)
